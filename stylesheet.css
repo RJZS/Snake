@@ -1,0 +1,40 @@
+/* Grid formatting */
+#grid {
+	line-height: 0px;
+	width: 600px;
+	height: 600px;
+}
+.square {
+	width: 15px;
+	height: 15px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	display: inline-block;
+	line-height: 15px;
+	font-size: 15px;
+	/* stops the snake from affecting the positioning of the square it's in */
+	vertical-align: top;
+}
+.row {
+	margin: 0;
+	display: block;
+}
+/* Page formatting */
+#main {
+	margin: 0 auto;
+	max-width: 600px;
+	text-align: center;
+	position: relative;
+}
+h2.points {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+h2.level {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 5px;
+}
